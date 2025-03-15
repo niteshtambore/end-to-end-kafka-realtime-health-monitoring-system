@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+kafka-python
+pandas
+scikit-learn
+joblib
+python-multipart
+twilio==7.2.0

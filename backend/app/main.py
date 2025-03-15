@@ -8,6 +8,10 @@ from app.producer import produce_kafka_messages
 from app.consumer import consume_kafka_messages
 from app.shared_state import shared_state  # Import the shared state
 from twilio.rest import Client
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 app = FastAPI()
 
